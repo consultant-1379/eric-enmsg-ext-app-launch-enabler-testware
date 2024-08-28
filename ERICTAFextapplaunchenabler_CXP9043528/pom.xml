@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ericsson.oss.containerisation</groupId>
+        <artifactId>ext-app-launch-enabler-testware</artifactId>
+        <version>1.0.8-SNAPSHOT</version>
+    </parent>
+    <artifactId>ERICTAFextapplaunchenabler_CXP9043528</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.ericsson.cifwk</groupId>
+            <artifactId>all-taf-sdk</artifactId>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>ERICTAFextapplaunchenabler_operators</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.de</groupId>
+            <artifactId>cli-tool</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.taf</groupId>
+            <artifactId>host-configurator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.cm</groupId>
+            <artifactId>node-integration</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.commontools</groupId>
+            <artifactId>lcm-operator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.security</groupId>
+            <artifactId>identity-management-rest-operators</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.security</groupId>
+            <artifactId>login-operators</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.network</groupId>
+            <artifactId>network-element-interaction</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.commontools</groupId>
+            <artifactId>enm-fls</artifactId>
+        </dependency>
+    </dependencies>
+</project>

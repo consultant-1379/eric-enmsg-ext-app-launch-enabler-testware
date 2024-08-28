@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="External_Application_Launch_Enabler - Totoro">
+    <test name="External_Application_Launch_Enabler" preserve-order="true" parallel="false" enabled="true">
+        <classes>
+            <class name="com.ericsson.oss.testware.extapplaunchenabler.scenarios.EaleConfigurationScenarios"/>
+            <class name="com.ericsson.oss.testware.extapplaunchenabler.scenarios.EaleTestScenarios"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.ericsson.oss.containerisation</groupId>
+        <artifactId>ext-app-launch-enabler-testware</artifactId>
+        <version>1.0.8-SNAPSHOT</version>
+    </parent>
+    <artifactId>ERICTAFextapplaunchenabler_operators</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ericsson.cifwk</groupId>
+            <artifactId>all-taf-sdk</artifactId>
+            <type>pom</type>
+        </dependency>
+        <!-- Dependency versions below should be handled centrally by a enm-test-library-bom. However, it is not currently being updated
+        i.e. pulls in old/incorrect versions-->
+        <dependency>
+            <groupId>com.ericsson.oss.testware.enm.cli</groupId>
+            <artifactId>enm-cli-operator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.commontools</groupId>
+            <artifactId>lcm-operator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.security</groupId>
+            <artifactId>identity-management-rest-operators</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.security</groupId>
+            <artifactId>login-operators</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ericsson.oss.testware.taf</groupId>
+            <artifactId>remote-execution</artifactId>
+        </dependency>
+    </dependencies>
+</project>

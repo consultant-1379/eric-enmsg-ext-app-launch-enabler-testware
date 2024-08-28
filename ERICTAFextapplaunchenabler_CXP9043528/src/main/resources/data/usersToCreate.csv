@@ -1,0 +1,5 @@
+username,firstName,lastName,email,password,enabled,roles,passwordResetFlag
+"ealeadmin","eale","admin","ealeadmin@test.ie","TestPassw0rd",TRUE,"Eale_Administrator",FALSE
+"boadmin","bo","admin","boadmin@test.ie","TestPassw0rd",TRUE,"BO_Administrator",FALSE
+"boreport","bo","ReportOperator","boaReport@test.ie","TestPassw0rd",TRUE,"BO_Report_Operator",FALSE
+"bouniverse","bo","UniverseOperator","boUniverse@test.ie","TestPassw0rd",TRUE,"BO_Universe_Operator",FALSE
